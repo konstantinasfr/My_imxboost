@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="imbalance-xgboost",
+    name="myimbalance-xgboost",
     version="0.7.4",
     author="Chen Wang",
     author_email="chen.wang.cs@rutgers.edu",
@@ -13,8 +13,8 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/jhwjhw0123/Xgboost-With-Imbalance-And-Focal-Loss",
     download_url="https://github.com/jhwjhw0123/Xgboost-With-Imbalance-And-Focal-Loss",
-    packages=['imxgboost'],
-    scripts=['imxgboost/imbalance_xgb.py', 'imxgboost/focal_loss.py', 'imxgboost/weighted_loss.py'],
+    packages=['myimxgboost'],
+    scripts=['myimxgboost/imbalance_xgb.py', 'myimxgboost/focal_loss.py', 'myimxgboost/weighted_loss.py'],
     classifiers=[
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.5",
