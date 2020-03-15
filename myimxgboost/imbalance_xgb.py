@@ -1,7 +1,7 @@
 import numpy as np
 import xgboost as xgb
-from imxgboost.weighted_loss import Weight_Binary_Cross_Entropy
-from imxgboost.focal_loss import Focal_Binary_Loss
+from myimxgboost.weighted_loss import Weight_Binary_Cross_Entropy
+from myimxgboost.focal_loss import Focal_Binary_Loss
 from sklearn.base import BaseEstimator, ClassifierMixin
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, matthews_corrcoef
 
